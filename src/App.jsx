@@ -35,7 +35,7 @@ function App() {
   }, []);
 
   return (
-    <main className="bg-black min-h-screen text-white font-fira-code">
+    <main className="bg-main bg-cover w-auto h-full text-white font-fira-code">
       <LocationForm handlerSubmit={handlerSubmit} />
       <LocationInfo currentLocation={currentLocation} />
       <ResidentList

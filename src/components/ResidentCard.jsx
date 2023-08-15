@@ -23,11 +23,15 @@ const ResidentCard = ({ residentUrl }) => {
   }, []);
 
   return (
-    <article className="border-solid border-4 border-white-600">
+    <article className="border-[1px] border-[#8EFF8B]">
       <div>
-        <section className="border-solid border-4 border-red-600">
+        <section>
           <header>
-            <img src={residentInfo?.image} alt="" />
+            <img
+              className="border-[1px] border-[#8EFF8B]"
+              src={residentInfo?.image}
+              alt=""
+            />
             <div className="grid grid-cols-[20px,20px] items-center gap-1 p-2">
               <div
                 className={`h-[10px] aspect-square rounded-full ${
@@ -39,7 +43,7 @@ const ResidentCard = ({ residentUrl }) => {
           </header>
         </section>
 
-        <section className="border-solid border-4 border-green-500">
+        <section>
           <h3>{residentInfo?.name}</h3>
           <ul>
             <li>{residentInfo?.species}</li>

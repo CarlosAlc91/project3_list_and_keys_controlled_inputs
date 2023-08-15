@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'header': "url('/images/header.png')",
-        'header-spin': "url('/images/green_cloud.png')"
+        /* 'header': "url('/images/header.png')", */
+        'cloud': "url('/images/green_cloud.png')",
+        'main': "url('/images/bg_main.png')",
+        'header': "url('images/bg_header.png')"
       },
 
       boxShadow: {
